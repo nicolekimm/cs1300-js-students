@@ -41,7 +41,7 @@ const handleResponse = (requestResponse) => {
     const wrapper = document.createElement("div");
     const img = document.createElement("img");
     const header = document.createElement("h2");
-    header.innerText = arrayItem.family_common_name;
+    header.innerText = arrayItem.slug;
     img.setAttribute("src", arrayItem.image_url);
     wrapper.appendChild(header);
     wrapper.appendChild(img);
